@@ -95,11 +95,11 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "自己",
+      id: "oP0hs5k80_xZk3MPskWactpOQDRw",
+      useTemplateId: "wkwyX9ruxKHFQ32rBQXWjH0GmVH094szJ-8tK8Z41cs",
+      province: "陕西",
+      city: "西安",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
