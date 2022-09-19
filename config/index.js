@@ -70,11 +70,11 @@ export const config = {
       // 所在城市
       city: "北辰",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '06-28',
+      horoscopeDate: '07-28',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
+      horoscopeDateType: '本周',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://www.tjcu.edu.cn/",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "	QY-YZxMKdrkH4i5RqJxtTSavRDQe0YdPGiNkiMnpSnQ",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
