@@ -28,7 +28,7 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oP0hs5kFO-bLOHbgvuDRYY4T1xHs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "wkwyX9ruxKHFQ32rBQXWjH0GmVH094szJ-8tK8Z41cs",
+      useTemplateId: "ZyEGmouQAAVCIr7VfDmbPOXrjmqctyIvvD1L70384fY",
       // 所在省份
       province: "天津",
       // 所在城市
@@ -78,8 +78,9 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "莹莹": "生日", "year": "2001", "date": "06-28"},
-        {"type": "节日", "莹莹": "恋爱纪念日", "year": "2020", "date": "07-20"},
+        {"type": "*生日", "name": "莹莹生日", "year": "2001", "date": "06-28"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "07-20"},
+        {"type": "节日", "name": "考研", "year": "2020", "date": "12-24"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
        // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
         //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
@@ -100,7 +101,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oP0hs5k80_xZk3MPskWactpOQDRw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "wkwyX9ruxKHFQ32rBQXWjH0GmVH094szJ-8tK8Z41cs",
+      useTemplateId: "ZyEGmouQAAVCIr7VfDmbPOXrjmqctyIvvD1L70384fY",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -209,8 +210,8 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "莹莹": "老婆", "year": "2001", "date": "06-28", isShowAge: true},
-    {"type": "节日", "莹莹": "恋爱纪念日", "year": "2020", "date": "07-20"},
+    {"type": "*生日", "name": "老婆", "year": "2001", "date": "06-28", isShowAge: true},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "07-20"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
@@ -250,7 +251,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "莹莹，你要每天都开心奥！"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
