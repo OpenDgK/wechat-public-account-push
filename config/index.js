@@ -68,7 +68,7 @@ export const config = {
       // 所在省份
       province: "天津",
       // 所在城市
-      city: "北辰",
+      city: "天津",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-28',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -89,9 +89,9 @@ export const config = {
         // 在一起的日子
         {"keyword": "love_day", date: "2020-07-20"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        //{"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        //{"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     {
@@ -185,11 +185,11 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "莹莹": "老婆", "year": "2001", "date": "06-28", isShowAge: true},
+    {"type": "节日", "莹莹": "恋爱纪念日", "year": "2020", "date": "07-20"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -209,11 +209,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2020-07-20"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+    //{"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    //{"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
